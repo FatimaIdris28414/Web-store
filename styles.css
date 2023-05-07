@@ -1,0 +1,190 @@
+.colored{
+  background-color: #f5dac9;
+}
+a{
+font-family: Sunflower;
+font-weight: 500;
+color: #a07956;
+
+}
+h3{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #a07956;
+  font-family: Sunflower;
+  font-weight: 500;
+}
+h5{
+  line-height: 1.5;
+  color: #a07956;
+  font-family: Sunflower;
+  font-weight: 500;
+}
+.navbar{
+  height: 50px;
+  padding: 5% 7%;
+}
+.navbar-toggler {
+  border: 1px solid white;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.nav-item a:hover{
+  color: white;
+}
+.edit{
+    padding: 7% 15%;
+    margin-right: 0;
+}
+.title{
+  position: relative;
+}
+.title-img{
+  position: absolute;
+  top: -170px;
+  left: 30%;
+}
+@media only screen and (max-width: 990px) {
+  .title-img {
+    width: 80%; /* adjust width for smaller screens */
+    position: relative; /* remove absolute positioning to fit within the title section */
+    top: 0;
+    left: 0;
+  }
+}
+.card{
+    border: 0;
+    padding: 10%;
+}
+.card-body{
+    background-color: #f5dac9;
+}
+
+.carousel-button{
+  border:0;
+  height:30px;
+  width: 40px;
+  margin: auto;
+}
+.carousel-item .row {
+  display: flex;
+  align-items: center;
+}
+.carousel-item{
+  width: 120%;
+}
+.carousel-img1{
+  height: 50%;
+  width: 50%;
+  margin-left: 30%;
+}
+.carousel-img2{
+  height: 50%;
+  width: 50%;
+}
+#contactus {
+  background-color: #f5f5f5;
+  padding: 50px;
+  text-align: center;
+}
+
+.editcontact {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-heading{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.editcontact h6{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+i{
+  margin: 5px;
+}
+.size-form {
+  display: flex;
+}
+.spacing{
+  padding: 5% 10%;
+}
+.size-label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.size-button{
+  opacity: 0;
+  position: absolute;
+
+}
+.size-button:checked+span{
+  font-weight: bold;
+}
+.product-button{
+  padding: 10px;
+  margin-top: 30px;
+}
+.button-color{
+  color: #a07956;
+}
+.buy-now-form{
+    color: #a07956;
+    padding: 0% 3%;
+}
+legend{
+  font-family: Sunflower;
+  font-weight: 700;
+  font-size: 30px;
+}
+.text-box {
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+  font-size: 12px;
+}
+.email-box{
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 5%;
+ font-size: 12px;
+}
+.address-box{
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 10%;
+font-size: 12px;
+}
+.buy-now-label {
+  width: 150px;
+}
+.right-align{
+  text-align: right;
+}
+.confirm-button{
+  width: 30%;
+}
+.confirmed{
+ color: #a07956;
+ font-size: 20px;
+}
